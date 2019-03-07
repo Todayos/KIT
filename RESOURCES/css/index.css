@@ -1,0 +1,120 @@
+ body {
+     margin: 0;
+     padding: 0;
+     height: 2000px;
+ }
+
+ li {
+     float: left;
+     list-style: none;
+ }
+
+ /* 上部分大图部分 */
+
+ .top0 {
+     position: absolute;
+     height: 100vh;
+     width: 100%;
+     background-image: url("../imgs/bck.jpg");
+     background-size: 100% 140%;
+     background-repeat: no-repeat;
+     background-position: -20%;
+     text-align: center;
+ }
+
+ /* 顶部菜单背景底板 */
+
+ .top-menu-tmpl {
+     position: relative;
+     top: 0px;
+     width: 100%;
+     height: 100px;
+ }
+
+ /* 菜单 */
+
+ .top-menu {
+     position: relative;
+     height: 25px;
+     float: left;
+     font-weight: 600;
+ }
+
+ .top-left-menu {
+     position: relative;
+     top: 50px;
+     left: 2em;
+ }
+
+ .top-left-menu ul {
+     color: #fff;
+     list-style: none;
+ }
+
+ .top-left-menu ul li {
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 25px;
+     margin-left: 2em;
+     font-size: 20px;
+ }
+
+ .top-right-menu {
+     position: relative;
+     top: 50px;
+     left: 50%;
+ }
+
+ .top-right-menu ul {
+     color: #fff;
+     list-style: none;
+ }
+
+ .top-right-menu ul li {
+     font-family: "maison_neuebold", Verdana, Arial, sans-serif;
+     float: right;
+     margin-left: 1em;
+     font-size: 16px;
+     border-left: 1px solid #fff;
+     padding-left: 1em;
+ }
+
+ .title {
+     position: relative;
+     top: 100px;
+     text-align: center;
+     display: block;
+     color: #fff;
+     font-size: 60px;
+     font-family: "maison_neuebold", Verdana, Arial, sans-serif;
+ }
+
+ .view {
+     position: relative;
+     top: 140px;
+     width: 500px;
+     left: 36%;
+ }
+
+ .view ul{
+     position: relative;
+ }
+
+ .view ul li{
+     display: inline-block;
+     height: 50px;
+     line-height: 50px;
+     width:140px;
+     color: #fff;
+     font-size: 20px;
+     text-align: center;
+     border: 1px solid #fff;
+ }
+
+ .motto{
+     position: relative;
+     top:390px;
+     width: 100%;
+     color: rgb(192, 109, 0);
+     left: -12%;
+     font-size: 60px;
+ }
